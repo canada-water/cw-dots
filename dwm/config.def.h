@@ -65,9 +65,10 @@ static const char *firefoxcmd[] = { "firefox", NULL};
 static const char *discordcmd[] = { "discord", NULL};
 static const char *vlccmd[] = { "vlc", NULL};
 static const char *scrnshtcmd[] = { "gnome-screenshot", NULL};
+static const char *scrnshtareacmd[] = { "gnome-screenshot", "-a", NULL};
 static const char *cajacmd[] = { "caja", NULL};
 static const char *rhythmboxcmd[] = { "rhythmbox", NULL};
-static const char *rbootcmd[] = { "sudo", "reboot", NULL};
+static const char *spotifycmd[] = { "spotify", NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -80,9 +81,10 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_d,	   spawn,	   {.v = discordcmd } },
 	{ MODKEY|ShiftMask,		XK_v,	   spawn,	   {.v = vlccmd } },
 	{ MODKEY|ShiftMask,		XK_p,	   spawn,	   {.v = scrnshtcmd } },
+	{ MODKEY|ShiftMask,		XK_a,	   spawn,	   {.v = scrnshtareacmd } },
 	{ MODKEY|ShiftMask,		XK_j,	   spawn,	   {.v = cajacmd } },
 	{ MODKEY|ShiftMask,		XK_m,	   spawn,	   {.v = rhythmboxcmd } },
-	{ MODKEY|ShiftMask,		XK_r,	   spawn,	   {.v = rbootcmd } },
+	{ MODKEY|ShiftMask,		XK_o,	   spawn,	   {.v = spotifycmd } },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
