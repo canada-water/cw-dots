@@ -22,6 +22,8 @@ First, you must retrieve the dependencies that are required for this. I have qui
 * Spotify
 * Rhythmbox
 * gnome-screenshot
+* caja file manager
+* vlc
 
 If you want to just remove those keybindings and not use those applications, then all you'll need is:
 
