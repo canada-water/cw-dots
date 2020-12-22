@@ -1,5 +1,5 @@
 # whitewash-dots
-This is my repo for my first rice, which I am calling "whitewash." It is a slightly monochrome theme that honestly isn't very easy on the eyes, but the wallpaper looks nice and I honestly think I nailed it with the top bar in dwm. I've had some past experience with tiling window managers, such as i3, but I thought for my first real rice, I should go with something extensible like dwm. Being the original dynamic window manager, I thought that it could easily accomidate my needs for school and such, so that's what I went with in the end.
+This is my repo for my first rice, which I am calling "whitewash." It is a slightly monochrome theme that honestly isn't very easy on the eyes, but the wallpaper looks nice and I honestly think I nailed it with the top bar in dwm. I've had some past experience with tiling window managers, such as i3, but I thought for my first real rice, I should go with something extensible like dwm. Being the original dynamic window manager, I thought that it could easily accommodate my needs for school and such, so that's what I went with in the end.
 
 Installation for this is relatively simple, as many of you know since you've probably worked with dwm and other Suckless software before. Simply clone the repo, cd into the folder, and if you run an ls you'll find all the other pieces of software. These are:
 
