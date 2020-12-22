@@ -16,3 +16,4 @@ I'd start with the dwm folder, so cd into that and run `sudo make clean install.
 While I haven't truly managed to get surf to work out just yet, I did get it configured nicely and I think that it fits with the theming here. Dependencies for all this are the font-awesome pack and the Liberation Serif font. Other than that, you should be fine with what is in the repo itself.
 
 ![screenshot1](https://github.com/canada-water/whitewash-dots/blob/main/Screenshot%20from%202020-12-22%2010-06-09.png)
+![screenshot2](https://github.com/canada-water/whitewash-dots/blob/main/Screenshot%20from%202020-12-22%2010-25-45.png)
