@@ -15,13 +15,16 @@ The specific pieces of software included in this repo include:
 I have also included a copy of my .xinitrc file so you can see what I'm doing upon running `startx` in my tty.
 
 ## installation
-First, you must retrieve the dependencies that are required for this. With the keybindings I've added in, these dependencies include:
+First, you must retrieve the dependencies that are required for this. I have quite a few specific keybindings involved, and these include:
 
 * Firefox
 * Discord
 * Spotify
 * Rhythmbox
 * gnome-screenshot
+
+If you want to just remove those keybindings and not use those applications, then all you'll need is:
+
 * font-awesome
 * Liberation Mono font
 * git
@@ -29,6 +32,11 @@ First, you must retrieve the dependencies that are required for this. With the k
 * pamixer
 * xautolock
 * picom
+* xorg-xauth
+* xorg-server
+* xorg-xinit
+
+Note: you'll need the group above in order to run this rice.
 
 Next, run:
 
